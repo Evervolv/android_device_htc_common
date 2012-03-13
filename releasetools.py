@@ -17,7 +17,7 @@
 
 import common
 import re
-import sha
+import hashlib
 
 def FullOTA_Assertions(info):
   AddBootloaderAssertion(info, info.input_zip)
